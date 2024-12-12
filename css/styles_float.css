@@ -1,0 +1,89 @@
+@import url("reset.css");
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    /* font-size: 0; */
+    color: black;
+}
+
+/* FLOAT */
+
+.float1 {
+    background-color: #f6ffd4;
+}
+
+.float1>div {
+    font-size: 16px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    outline: 2px solid ;
+    float:left
+}
+
+.float2 {
+    background-color: #dafbf7;
+}
+
+.float2>div {
+    float:left;  
+}
+
+.float2_a>div {
+    width: 800px;
+    height: 200px;
+    outline: 2px solid ;
+    padding: 20px;
+}
+
+.float2_b>div {
+    width: 400px;
+    height: 133.33px;
+    outline: 2px solid ;
+    padding: 20px;
+}
+
+.float3 {
+    background-color: #f9e6f9;
+}
+
+.float3>div {
+    float:left;  
+}
+
+
+.float3_a {
+    width: 400px;
+    height: 400px;
+    outline: 2px solid;
+    padding: 20px;
+}
+
+.float3_b {
+    width: 800px;   
+}
+
+.float3_b>div {
+    outline: 2px solid;
+    height: 200px;
+}
+.float_b10 {
+    padding: 20px;
+}
+.float_b10a>div {
+    float: left;
+}
+
+.float_b11 {
+    padding: 20px;
+    width: 400px;
+}
+
+.float_b12>div {
+    padding: 20px;
+    outline: 2px solid;
+    height: 100px;
+    width: 400px;
+}
+
