@@ -4,13 +4,112 @@
     margin: 0 auto;
     width: 1200px;
     /* font-size: 0; */
-    color: black;
+}
+
+.block1, .block2, .block3 {
+    font-size: 0;
+}
+
+.block1>div {
+    font-size: 16px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    outline: 2px solid ;
+    background-color: #f6ffd4;
+}
+
+.block2_a, .block2_b{
+    background-color: #dafbf7;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block2_a>div {
+    font-size: 16px;
+    width: 800px;
+    height: 200px;
+    padding: 20px;
+    outline: 2px solid ;
+}
+
+.block2_b>div {
+    font-size: 16px;
+    width: 400px;
+    height: 133.33px;
+    padding: 20px;
+    outline: 2px solid ;
+}
+
+.block3 {
+    background-color: #f9e6f9;
+}
+
+.block3_a {
+    font-size: 16px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    outline: 2px solid;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.block3_b {
+    font-size: 16px;
+    width: 800px;
+    outline: 2px solid;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.b10 {
+    font-size: 16px;
+    height: 200px;
+    padding: 20px;
+    outline: 2px solid;
+    vertical-align: top;
+
+}
+.b10a {
+    font-size: 0;
+    width: 800px;
+    height: 200px;
+    outline: 2px solid;
+    display: block;
+}
+.b10a>div {
+    display:inline-block;
+}
+
+.b11 {
+    font-size: 16px;
+    width: 400px;
+    height: 200px;
+    display:inline-block;
+    outline: 2px solid;
+    vertical-align: top;
+    padding: 20px;
+}
+.b12 {
+    display:inline-block;
+}
+.b12>div {
+    font-size: 16px;
+    width: 400px;
+    height: 100px;
+    outline: 2px solid;
+    vertical-align: top;
+    padding: 20px;
 }
 
 /* FLOAT */
 
 .float1 {
     background-color: #f6ffd4;
+    font-family: 'Kanit';
+    font-weight: 400;
 }
 
 .float1>div {
@@ -24,6 +123,8 @@
 
 .float2 {
     background-color: #dafbf7;
+    font-family: 'Inter';
+    font-weight: 400;
 }
 
 .float2>div {
@@ -46,6 +147,8 @@
 
 .float3 {
     background-color: #f9e6f9;
+    font-family: 'Roboto';
+    font-weight: 400;
 }
 
 .float3>div {
@@ -85,5 +188,16 @@
     outline: 2px solid;
     height: 100px;
     width: 400px;
+    overflow:hidden;
 }
+
+/* мои заметки */
+
+/* .container>div>div:first-child {
+    font-weight: 700;
+}
+
+.float3>div:first-child:hover{
+    background-color: white;
+} */
 
